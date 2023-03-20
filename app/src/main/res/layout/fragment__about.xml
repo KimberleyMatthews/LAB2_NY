@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFD3BB"
+    tools:context=".Fragment_About">
+
+    <TextView
+        android:id="@+id/tv_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="230dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20sp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="@string/this_is_an_app_design_to_create_your_new_kitchen_wether_it_s_your_old_kitchen_in_need_of_some_love_and_care_or_if_you_are_looking_to_design_a_new_kitchen_in_your_new_home" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="253dp"
+        android:layout_gravity="center"
+        android:src="@drawable/bild4_lab2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200sp"
+        android:text="@string/before_and_after"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250sp"
+        android:backgroundTint="#B1A189"
+        android:text="Sign up for our newsletter" />
+
+</FrameLayout>

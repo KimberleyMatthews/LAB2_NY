@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LAB2_NY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_and_welcome_to_your_kitchen_styler">Hello and welcome to your kitchen styler!</string>
+    <string name="design">Design</string>
+    <string name="in_this_app_you_will_be_able_to_design_your_own_kitchen">In this app you will be able to design your own kitchen!</string>
+    <string name="try_the_switch_and_change_the_color">Try the switch and change the color</string>
+    <string name="this_is_an_app_design_to_create_your_new_kitchen_wether_it_s_your_old_kitchen_in_need_of_some_love_and_care_or_if_you_are_looking_to_design_a_new_kitchen_in_your_new_home">This is an app design to create your new kitchen. Wether it\'s your old kitchen in need of some love and care, or if you are looking to design a new kitchen in your new home.</string>
+    <string name="before_and_after">Before and after</string>
+    <string name="sign_up_for_our_newsletter_and_get_more_kitchen_inspirations">Sign up for our newsletter and get more kitchen inspirations</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+</resources>
