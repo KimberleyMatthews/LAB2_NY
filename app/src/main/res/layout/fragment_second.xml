@@ -12,6 +12,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
         android:text="@string/in_this_app_you_will_be_able_to_design_your_own_kitchen"
         android:textAlignment="center"
         android:textSize="30sp" />
@@ -27,24 +29,30 @@
         android:id="@+id/textView_try"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150sp"
-        android:textSize="20sp"
         android:layout_gravity="center"
-        android:text="@string/try_the_switch_and_change_the_color" />
+        android:layout_marginTop="150sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textAlignment="center"
+        android:text="How many rooms would you like to design?"
+        android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tv_counterValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="230sp"
+        android:textSize="25sp"
         android:text="TextView" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_Count"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="250sp"
+        android:layout_marginTop="280sp"
         android:backgroundTint="#B1A189"
-        android:text="Count" />
+        android:text="+ 1" />
 
 </FrameLayout>
